@@ -14,7 +14,7 @@
 - [Flashing the ESP32 💾](#flashing-the-esp32-)
 - [Flashing the SD Card 💾](#flashing-the-sd-card-)
 - [Casing 🛠️](#casing-%EF%B8%8F)
-- [Auto Calibration ⚙️](tools/auto-calibration/guide.md)
+- [Auto Calibration ⚙️](https://github.com/0dxplt/AI-on-the-edge-device/blob/main/tools/auto-calibration/guide.md)
 - [Donate ☕](#donate-)
 - [Support 💬](#support-)
 - [Changes and History 📜](#changes-and-history-)
