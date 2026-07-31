@@ -1,0 +1,14 @@
+imgs/
+*.jpg
+*.jpeg
+*.png
+
+__pycache__/
+*.pyc
+
+config.ini
+
+venv/
+.venv/
+env/
+.env/
