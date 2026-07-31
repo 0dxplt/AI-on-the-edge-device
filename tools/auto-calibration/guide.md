@@ -1,6 +1,6 @@
 # AI on the Edge - Auto Calibration API
 
-This repository provides an automated, machine-learning-driven backend to calibrate "AI on the Edge" ROIs and Alignment Markers.
+This tool provides an automated, machine-learning-driven backend to calibrate "AI on the Edge" ROIs and Alignment Markers.
 
 Instead of manually drawing bounding boxes (ROIs) on the web interface, this FastAPI server receives a raw image from the ESP32, uses a custom **YOLOv8** model to detect digits, analog dials, and alignment markers, and automatically pushes the newly generated `config.ini` and reference images back to the ESP32 SD card.
 
