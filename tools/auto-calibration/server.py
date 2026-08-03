@@ -51,7 +51,8 @@ async def get_photo(file: UploadFile = File(...)):
         if not config_file:
             raise Exception("[-] Could not download config.ini from ESP32.")
         
-        yolo_data = process_image(full_path, dest_dir)
+        # yolo_data = process_image(full_path, dest_dir)
+        yolo_data = process_image("water_meter.jpg", dest_dir)
         
         # Sync updated config
         config_sync = upload(esp_ip, "config/config.ini", "config", "config.ini")

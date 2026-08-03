@@ -90,3 +90,36 @@ python server.py
 Open the "Ai on the Edge" web interface running on your ESP32-CAM, hover on to the `Settings` list and choose the `Automatic ROIS` option.
 
 The server will automatically fetch the ESP32 config, process the image, write the new parameters, upload the updated files, and trigger the device reboot. Check your terminal output for real-time logs of the synchronization process!
+
+## ✨ See it in Action
+
+Here is how the Auto-Calibration process works:
+
+<p align="center">
+  <em><b>1. The Trigger:</b> A new "Automatic ROIS" button is natively integrated into the ESP32 Web UI.</em>
+</p>
+<p align="center">
+  <img src="auto_rois.png" width="350">
+</p>
+
+<br>
+
+<p align="center">
+  <em><b>2. The Brain:</b> The FastAPI server receives the raw picture and processes it through YOLOv8, perfectly identifying digits, analogs, and alignment markers.</em>
+</p>
+<p align="center">
+  <img src="reference.jpg" width="600">
+</p>
+<p align="center">
+  <img src="result.jpg" width="600">
+</p>
+
+<br>
+
+<p align="center">
+  <em><b>3. The Magic (ESP32 Sync):</b> The server automatically pushes the updated coordinates, reference crops, and configuration back to the device, perfectly aligning everything!</em>
+</p>
+<p align="center">
+  <img src="analogs.png" width="600">
+  <img src="digits.png" width="600">
+</p>
