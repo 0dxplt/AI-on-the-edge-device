@@ -1,6 +1,6 @@
 # 🧊 3D Phisical Mount (Blender)
 
-This directory includes the source 3D model `mount.blend` for the water meter phisical support along with the ESP32-CAM MB case, created entirely in **Blender** (`.blend` format).
+This directory includes the source [3D model](https://github.com/0dxplt/AI-on-the-edge-device/blob/main/phisical-mount/mount.blend) for the water meter phisical support along with the ESP32-CAM MB case, created entirely in **Blender** (`.blend` format).
 
 ![Blender 3D Model Preview](result.png)
 
